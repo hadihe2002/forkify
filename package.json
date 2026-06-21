@@ -4,22 +4,13 @@
   "description": "",
   "scripts": {
     "dev": "parcel index.html",
-    "build": "parcel build index.html --dist-dir dist"
+    "build": "parcel build index.html --no-optimize --dist-dir dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devEngines": {
-    "packageManager": {
-      "name": "pnpm",
-      "version": "^11.5.0",
-      "onFail": "download"
-    }
-  },
   "type": "module",
   "devDependencies": {
-    "@parcel/config-default": "^2.16.4",
-    "@parcel/transformer-raw": "^2.16.4",
     "@parcel/transformer-sass": "2.16.4",
     "parcel": "^2.16.4"
   },
@@ -27,6 +18,5 @@
     "core-js": "^3.49.0",
     "fraction.js": "^5.3.4",
     "regenerator-runtime": "^0.14.1"
-  },
-  "packageManager": "pnpm@9.15.0"
+  }
 }

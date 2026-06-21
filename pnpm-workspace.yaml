@@ -4,6 +4,3 @@ allowBuilds:
   core-js: true
   lmdb: true
   msgpackr-extract: true
-
-packages:
-  - '.'
