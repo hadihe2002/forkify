@@ -217,6 +217,12 @@ importers:
         specifier: ^0.14.1
         version: 0.14.1
     devDependencies:
+      '@parcel/config-default':
+        specifier: ^2.16.4
+        version: 2.16.4(@parcel/core@2.16.4(@swc/helpers@0.5.23))(@swc/helpers@0.5.23)
+      '@parcel/transformer-raw':
+        specifier: ^2.16.4
+        version: 2.16.4(@parcel/core@2.16.4(@swc/helpers@0.5.23))
       '@parcel/transformer-sass':
         specifier: 2.16.4
         version: 2.16.4(@parcel/core@2.16.4(@swc/helpers@0.5.23))
